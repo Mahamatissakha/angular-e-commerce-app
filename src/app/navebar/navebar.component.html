@@ -1,0 +1,94 @@
+<nav *ngIf="login_Not_Active" class="navbar navbar-expand-lg navbar-light" (onload)="checkfiunction()">
+  <div class="container-fluid">
+    <img class="nav-logo" [src]="myImage" alt="Logo" />
+    <a class="navbar-brand" routerLink="/" class="YHAkart">{{Title}}</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-2">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" routerLink="/">Home</a>
+        </li>
+        <li class="nav-item m-2">
+
+        </li>
+      </ul>
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" routerLink="cart">
+            <i class="fa-solid fa-shopping-cart" style="font-size:24px"></i>
+          </a>
+        </li>
+        <li class="nav-item m-2">
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="Login">Sign in</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<nav *ngIf="login_Active" class="navbar navbar-expand-lg navbar-light" (onload)="checkfiunction()">
+  <div class="container-fluid">
+    <img class="nav-logo" [src]="myImage" alt="Logo" />
+    <a class="navbar-brand" routerLink="/" class="YHAkart">{{Title}}</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-2">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" routerLink="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" routerLink="/mobile">Mobile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" routerLink="/electronics">Electronics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" routerLink="/fashion">Fashion</a>
+        </li>
+        <li class="nav-item">
+          <!-- <form class="d-flex mb-2 mb-lg-0">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+        </li>
+      </ul>
+      <ul class="navbar-nav mb-2 mb-lg-0 m">
+        <li class="nav-item">
+          <a class="nav-link" *ngIf="HOMEUSERACTIVE" routerLink="addproducts">
+            <i class="fa-solid fa-circle-plus" style="font-size:24px"></i>
+          </a>
+        </li>
+        <li class="nav-item m-1">
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" routerLink="cart">
+            <i class="fa-solid fa-shopping-cart" style="font-size:24px"></i>
+            <div style="font-size: 10px;" class="badge bg-danger">{{CartdataCount}}</div>
+          </a>
+        </li>
+        <li class="nav-item m-1">
+
+        </li>
+        <li class="nav-item">
+          <button class="btn btn-outline-danger" type="submit" (click)="Logout()">
+            <i class="fa-solid fa-anchor-circle-xmark"></i></button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <router-outlet></router-outlet>
+</div>

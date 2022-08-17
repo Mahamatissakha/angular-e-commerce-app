@@ -1,0 +1,40 @@
+<div class="container mt-3">
+    <section class="vh-100">
+        <div class="container-fluid h-custom">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-md-9 col-lg-6 col-xl-5">
+                    <img [src]="Images" class="img-fluid" alt="Sample image">
+                </div>
+                <div class="col-md-9 col-lg-6 col-xl-5">
+                    <form [formGroup]="LoginForm" (ngSubmit)="onSubmit()">
+                        <!-- Email input -->
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="email" class="form-control" formControlName="email" />
+                            <label class="form-control-label">Email address</label>
+                        </div>
+
+                        <!-- Password input -->
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="password" class="form-control" formControlName="password" />
+                            <label class="form-control-label">Password</label>
+                        </div>
+
+                        <div class="text-center text-lg-start mt-4 pt-2">
+                            <button type="submit" class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;"
+                                [disabled]="LoginForm.invalid">Login</button>
+                            <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a routerLink="/signup"
+                                    class="link-danger">Register</a></p>
+
+                            <div class="text-center text-lg-start mt-4 pt-2">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a routerLink="#!" class="text-body">Forgot password?</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

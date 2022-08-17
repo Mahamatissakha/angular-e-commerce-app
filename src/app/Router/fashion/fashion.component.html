@@ -1,0 +1,14 @@
+<div class="text-center" *ngIf="SpinnerActive">
+    <img src="{{Spinner}}" alt="loading">
+</div>
+<div class="row" *ngIf="dataloader">
+    <ng-container *ngFor="let item of Fashiondata">
+        <div class="card col-md-3">
+            <img src="{{item.productimage}}" alt="">
+            <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">
+                {{item.productname}}</h5>
+            <p><strong>Price:</strong>₹{{item.productprice}}</p>
+            <button class="btn btn-primary" (click)="addcart(item.id)">Add to cart</button>
+        </div>
+    </ng-container>
+</div>

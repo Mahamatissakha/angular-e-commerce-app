@@ -1,0 +1,46 @@
+<div class="container mt-3">
+    <!-- <section class="vh-100"> -->
+        <div class="container-fluid h-custom">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-md-9 col-lg-6 col-xl-5">
+                    <img [src]="imgsrc" class="img-fluid" alt="Sample image">
+                </div>
+                <div class="col-md-9 col-lg-6 col-xl-5">
+                    <form [formGroup]="ProductForm" (ngSubmit)="onSubmit()">
+                        <!-- Product Name input -->
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="text" class="form-control" formControlName="productname" />
+                            <label class="form-control-label">Product Name</label>
+                        </div>
+
+                         <!-- Product Field input -->
+                         <div class="form-floating mb-3 mt-3">
+                            <select id="inputState" class="form-select" formControlName="productfield">
+                                <option *ngFor="let item of Productfield" value="{{item}}">{{item}}</option>
+                            </select>
+                            <label class="form-control-label">Product Field</label>
+                        </div>
+
+                         <!-- Product Image input -->
+                         <div class="form-floating mb-3 mt-3">
+                            <input type="text" #productimage class="form-control" (keyup)="showPreview(productimage.value)" formControlName="productimage" />
+                            <label class="form-control-label">Product Image</label>
+                        </div>
+                        
+                        <!-- Product Price -->
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="text" class="form-control" formControlName="productprice" />
+                            <label class="form-control-label">Product Price</label>
+                        </div>
+
+                        <div class="text-center text-lg-start mt-4 pt-2">
+                            <button type="submit" class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;"
+                                [disabled]="ProductForm.invalid">Add</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <!-- </section> -->
+</div>

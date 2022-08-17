@@ -1,0 +1,141 @@
+{
+  "Registration": [
+    {
+      "name": "Yash",
+      "lastname": "Bhayani",
+      "mobilenumber": "9988776655",
+      "email": "yash@gmail.com",
+      "DOB": "2001-02-12",
+      "password": "Yash@1234",
+      "User_id": "UyYdmCBYQH2psaaYypKW0yOaFl-aQ-h-ioL2h81m6NTdL-zU9hW57BCBjy50iNy5bN0CWiW9ZghHBs6CyZY7@w061uakcwusK0z8jC59zthJ-c2h5pB4ncn66nw8ooSt8819harojE2MU47OnsNiyn0l0qsYySEZy14-618tQn8QY56L1me0pyy8qcHBC2Z2FR786nKa3PJoAh6gRbyihJ-jIP9trowFYGKJwyyx5ncRigi6a7Ke1u7sWZTk9lshpr2tmhULBGnqgJB8e8K2g082090n02x0dskn48RyNH178m1567B7TzXM4XDr665ac4M27qSCqs0x0OgTdbaB8Rs71h2A9m3vgEf6p6g0a266881pha9G6m-@aNYf5tRb-9e9SN6-y1eizDanwDY205w3oBZh90My0Y-qOdpa7U5cyhYIIAashCyqc0S4lv6APY1uh74jqGt4rscepQcf550Uvjn0Pc7F75hgC28VVaaYlxj0ged0",
+      "id": 1
+    },
+    {
+      "name": "Raj",
+      "lastname": "thummar",
+      "mobilenumber": "9988007766",
+      "email": "raj@gmail.com",
+      "DOB": "2001-02-12",
+      "password": "Raj@1234",
+      "User_id": "qraCvaMjfzHmZae7-B2M1mr7pGiQSL5LQgg25m9KPtVq2670rziOzR7J7gpYbFtpjN@MQ9K01Zr4aomcA9ta28h5a-VD@U20H1Sj5Hb91PjanEYjT8s59GhPm28f6H0tgbsrti@gtlS-2I5Jgj9Kf1Daaz2r9j4m52wYQhm0OVh0@5M6GG9S7wtu2Rp2viku9555p--2gS8jR889kimk2A4c0Gj2af2irb006-@Naj0Myw7jgIwpj17frr-iTXSCu0tm7Dz0ad2aVr7aaZN2vUtGBh6Q2TNoIagah99ka5tP5Qr7MaARhk27r1u1-8h-RYwDLTab11Jk57G9MmZF96Wj1U@LnoZAjHXr7dXga98-wm@mtaolL4852jA1taoM82aJg1ZEHXFwvGNgqM95EaESaBj8B2e5a1ta6irD5iX@80B0isuxUiD5af9dx86ir2nF99Umo9EKE-9qUBsiH09M42ujm9P0XmgYt9yU70ah0C0Qo4redt7zDd0-8h@6v9Lk0aV9V2A9aTvfVR80riMOyjj9u0It9Irs8m3Xz89170g6rmTA0JrA6B0acBV@AKmdahm40gDVak2DV6lbmFxpaj7bW5oh4hYqgWVG1i0a61mTU7iwpBAGCm80lrk2og83FJWYW-djC88Q91uYW@579Ec210tg6-6itYB0vai42r1Ltm9Q4rkYbg-33a6a8acb8iSQ6r8Y6b-ammRNE7Y19Hci8qjma1g91b1K8hmeJKKi-j@a5rzS49ntlB005Ntm2R6gmyalzu7521fr62ad4sa7ija6-N0G@hotm@fjWihgtb26gJnera5j21cxi19h98Rg6Var64gRjj6ai4Y8bs@f0A09@9Or6mazt4aK5194rA4aVjr6DvBO8a1Haa6snaoQd2oR6-hMMe61dmFEmKa-6joaaq2juCr09@QRW8DJytrW6mke9RzmQ33ma08xTYra5H966Z3dh-hEsaa-gicVu7UDm565pCg9",
+      "id": 2
+    }
+  ],
+  "Product": [
+    {
+      "productname": "APPLE iPhone 11 (White, 64 GB)",
+      "productfield": "Mobile",
+      "productimage": "https://rukminim1.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/k/y/d/iphone-11-256-u-mwm82hn-a-apple-0-original-imafkg25mhaztxns.jpeg?q=70",
+      "productprice": 46999,
+      "id": 1
+    },
+    {
+      "productname": "OnePlus Nord 2T 5G (Gray Shadow, 128 GB)  (8 GB RAM)",
+      "productfield": "Mobile",
+      "productimage": "https://rukminim1.flixcart.com/image/416/416/l572ufk0/mobile/v/b/h/nord-2t-5g-5011102062-oneplus-original-imagfx6bzs4hd4ft.jpeg?q=70",
+      "productprice": 28696,
+      "id": 2
+    },
+    {
+      "productname": "Lenovo IdeaPad Gaming Core i5 11th Gen ",
+      "productfield": "Electronics",
+      "productimage": "https://rukminim1.flixcart.com/image/416/416/ks99aq80/computer/y/z/7/na-gaming-laptop-lenovo-original-imag5ve3jvhgvsnx.jpeg?q=70",
+      "productprice": 54990,
+      "id": 3
+    },
+    {
+      "productname": "Striped Men Polo Neck Multicolor T-Shirt",
+      "productfield": "Fashion",
+      "productimage": "https://rukminim1.flixcart.com/image/800/960/kzegk280/t-shirt/r/o/t/s-t285hs-as7whdngr-eyebogler-original-imagbfygwtubscjw.jpeg?q=50",
+      "productprice": 299,
+      "id": 4
+    },
+    {
+      "productname": "JBL Tune 230NC with Active Noise Cancellation",
+      "productfield": "Electronics",
+      "productimage": "https://rukminim1.flixcart.com/image/416/416/l2jcccw0/headphone/y/w/p/-original-imagduyfccc4rqhd.jpeg?q=70",
+      "productprice": 6000,
+      "id": 5
+    },
+    {
+      "productname": "Women Sheath Black Dress",
+      "productfield": "Fashion",
+      "productimage": "https://rukminim1.flixcart.com/image/800/960/xif0q/dress/7/t/a/xl-bcl-seq-brucella-original-imagdwxfshsgs75h-bb.jpeg?q=50",
+      "productprice": 1300,
+      "id": 6
+    },
+    {
+      "productname": "Women Bodycon Blue Dress",
+      "productfield": "Fashion",
+      "productimage": "https://rukminim1.flixcart.com/image/800/960/xif0q/dress/g/7/4/m-1453-sheetal-associates-original-imagcrxzsqzxecgc-bb.jpeg?q=50",
+      "productprice": 500,
+      "id": 7
+    },
+    {
+      "productname": "Women Wrap Pink Dress",
+      "productfield": "Fashion",
+      "productimage": "https://rukminim1.flixcart.com/image/800/960/xif0q/dress/7/f/c/xs-a1204-sheetal-associates-original-imag9xt9czmjmzrz-bb.jpeg?q=50",
+      "productprice": 399,
+      "id": 8
+    },
+    {
+      "productname": "SAMSUNG Galaxy S22 Ultra 5G (Phantom Black, 256 GB) ",
+      "productfield": "Mobile",
+      "productimage": "https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/w/t/r/-original-imaggj68cgtdacxn.jpeg?q=70",
+      "productprice": 109999,
+      "id": 9
+    }
+  ],
+  "Cart": [
+    {
+      "Product_id": 1,
+      "Productname": "APPLE iPhone 11 (White, 64 GB)",
+      "Productfield": "Mobile",
+      "Productimage": "https://rukminim1.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/k/y/d/iphone-11-256-u-mwm82hn-a-apple-0-original-imafkg25mhaztxns.jpeg?q=70",
+      "Productprice": 46999,
+      "User_id": 2,
+      "CountProduct": 1,
+      "id": 2
+    },
+    {
+      "Product_id": 9,
+      "Productname": "SAMSUNG Galaxy S22 Ultra 5G (Phantom Black, 256 GB) ",
+      "Productfield": "Mobile",
+      "Productimage": "https://rukminim1.flixcart.com/image/416/416/xif0q/mobile/w/t/r/-original-imaggj68cgtdacxn.jpeg?q=70",
+      "Productprice": 109999,
+      "User_id": 2,
+      "CountProduct": 1,
+      "id": 3
+    },
+    {
+      "Product_id": 4,
+      "Productname": "Striped Men Polo Neck Multicolor T-Shirt",
+      "Productfield": "Fashion",
+      "Productimage": "https://rukminim1.flixcart.com/image/800/960/kzegk280/t-shirt/r/o/t/s-t285hs-as7whdngr-eyebogler-original-imagbfygwtubscjw.jpeg?q=50",
+      "Productprice": 299,
+      "User_id": 2,
+      "CountProduct": 1,
+      "id": 4
+    },
+    {
+      "Product_id": 6,
+      "Productname": "Women Sheath Black Dress",
+      "Productfield": "Fashion",
+      "Productimage": "https://rukminim1.flixcart.com/image/800/960/xif0q/dress/7/t/a/xl-bcl-seq-brucella-original-imagdwxfshsgs75h-bb.jpeg?q=50",
+      "Productprice": 1300,
+      "User_id": 2,
+      "CountProduct": 1,
+      "id": 5
+    },
+    {
+      "Product_id": 7,
+      "Productname": "Women Bodycon Blue Dress",
+      "Productfield": "Fashion",
+      "Productimage": "https://rukminim1.flixcart.com/image/800/960/xif0q/dress/g/7/4/m-1453-sheetal-associates-original-imagcrxzsqzxecgc-bb.jpeg?q=50",
+      "Productprice": 500,
+      "User_id": 2,
+      "CountProduct": 1,
+      "id": 6
+    }
+  ]
+}

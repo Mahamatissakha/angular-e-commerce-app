@@ -1,0 +1,62 @@
+<div class="container mt-3">
+    <section class="vh-100">
+        <div class="container-fluid h-custom">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-md-9 col-lg-6 col-xl-5">
+                    <img [src]="Image" class="img-fluid" alt="Sample image">
+                </div>
+                <div class="col-md-9 col-lg-6 col-xl-5">
+                    <form [formGroup]="RegisterForm" (ngSubmit)="onSubmit()">
+                        <!-- Name input -->
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="text" class="form-control" formControlName="name" placeholder="name" />
+                            <label class="form-control-label">Name</label>
+                        </div>
+
+                        <!--Last Name input -->
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="text" class="form-control" formControlName="lastname"
+                                placeholder="Last Name" />
+                            <label class="form-control-label">Last Name</label>
+                        </div>
+
+                        <!--Mobile Number input -->
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="text" class="form-control" formControlName="mobilenumber"
+                                placeholder="Mobile Number" />
+                            <label class="form-control-label">Mobile Number</label>
+                        </div>
+
+                        <!--DOB input -->
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="date" class="form-control" formControlName="DOB" />
+                            <label class="form-control-label">Date of Birth</label>
+                        </div>
+
+                        <!-- Email input -->
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="email" class="form-control" formControlName="email" placeholder="Email" />
+                            <label class="form-control-label">Email address</label>
+                        </div>
+
+                        <!-- Password input -->
+                        <div class="form-floating mb-3 mt-3">
+                            <input type="password" id="form3Example4" class="form-control" formControlName="password" placeholder="Password"/>
+                            <label class="form-control-label">Password</label>
+                        </div>
+
+                        <div class="text-center text-lg-start mt-4 pt-2">
+                            <button type="submit" class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;"
+                                [disabled]="RegisterForm.invalid"> Sign Up </button>
+                            <p class="small fw-bold mt-2 pt-1 mb-0">
+                                Go back to 
+                            <a routerLink="/Login" class="link-danger">Login</a></p>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
